@@ -1,0 +1,19 @@
+# Atur karakter akhir baris untuk semua file menjadi LF (Line Feed)
+* text eol=lf
+
+# Atur file dengan ekstensi .jpg dan .png sebagai file biner
+*.jpg binary
+*.png binary
+
+# Atur file Python agar diindentasi saat melakukan operasi merge
+*.py indent
+
+# Atur file app.js dan style.css sebagai file teks, tapi abaikan perubahan karakter akhir baris
+app.js text eol=lf
+style.css text eol=lf
+
+# Atur direktori data sebagai file biner
+data/ binary
+
+# Atur karakter akhir baris di direktori docs menjadi CRLF (Carriage Return dan Line Feed)
+docs/ text eol=crlf
